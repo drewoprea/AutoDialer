@@ -30,7 +30,7 @@ void setup() {
 /*
  * void step(int x, bool dir)
  * Moves in specified direction for x numbers on the dial 
- * Useing dir : 1 for CCW, 0 for CW
+ * Using dir : 1 for CCW, 0 for CW
 */
 void myStep(int x, bool dir) {
   digitalWrite(dirPin,dir);  // 1 for CCW, 0 for CW
